@@ -12,8 +12,7 @@ int task(void)
 
     condition = ((A % 2 != 0) != (B % 2 != 0));
 
-    printf("Включить сирену (1 - да, 0 - нет): %d\n",
-           condition);
+    printf("Включить сирену (1 - да, 0 - нет): %d\n", condition);
 
     return 0;
 }
